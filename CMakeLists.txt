@@ -22,6 +22,6 @@ add_custom_target(
 )
 
 sign_app_library(
-  app.enclave ${CMAKE_CURRENT_SOURCE_DIR}/oe_sign.conf
+  ccf_app.enclave ${CMAKE_CURRENT_SOURCE_DIR}/oe_sign.conf
   ${CMAKE_CURRENT_BINARY_DIR}/signing_key.pem
 )
